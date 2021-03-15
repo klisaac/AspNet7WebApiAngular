@@ -28,7 +28,7 @@
     "Staging": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger/index.html?swagger/v1/swagger.json",
+      //"launchUrl": "swagger/index.html?swagger/v1/swagger.json",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Staging"
       },
@@ -37,7 +37,7 @@
     "Production": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger/index.html?swagger/v1/swagger.json",
+      //"launchUrl": "swagger/index.html?swagger/v1/swagger.json",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
