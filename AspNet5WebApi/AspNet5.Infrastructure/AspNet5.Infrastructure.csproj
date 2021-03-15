@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pagination\Base\**" />
+    <EmbeddedResource Remove="Pagination\Base\**" />
+    <None Remove="Pagination\Base\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pagination\FilteringOption.cs" />
+    <Compile Remove="Pagination\PagingArgs.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNet5.Core\AspNet5.Core.csproj" />
+  </ItemGroup>
+
+</Project>

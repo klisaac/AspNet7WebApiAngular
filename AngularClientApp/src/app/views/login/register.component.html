@@ -1,0 +1,51 @@
+<div class="app-body">
+    <main class="main d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <div class="card mx-4">
+              <div class="card-body p-4">
+                <form [formGroup]="registerForm" (ngSubmit)="register()">
+                  <h1>Register</h1>
+                  <p class="text-muted">Create your account</p>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="icon-user"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" autocomplete="username"  formControlName="userName" required>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="icon-lock"></i></span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" autocomplete="new-password" formControlName="password" required>
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="icon-lock"></i></span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Confirm password" autocomplete="new-password" formControlName="confirmPassword" required>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-9">
+                      <ar-validation-message [control]="registerForm.controls.userName"></ar-validation-message>
+                      <ar-validation-message [control]="registerForm.controls.password"></ar-validation-message>
+                      <ar-validation-message [control]="registerForm.controls.confirmPassword"></ar-validation-message>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button type="button" class="btn btn-block btn-success" (click)="register()">Create Account</button>
+                    </div>
+                    <div class="col-6">
+                      <button class="btn btn-block btn-secondary" type="button" (click)="cancel()"><span>Cancel</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>  

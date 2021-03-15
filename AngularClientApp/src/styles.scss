@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@ng-select/ng-select/themes/default.theme.css';
+
+@import "~simple-line-icons/css/simple-line-icons.css";
+
+@import "~@coreui/coreui/scss/coreui";
+
+@import '~ng-wizard/themes/ng_wizard.min.css';
+@import '~ng-wizard/themes/ng_wizard_theme_arrows.min.css';
+@import '~ng-wizard/themes/ng_wizard_theme_circles.min.css';
+@import '~ng-wizard/themes/ng_wizard_theme_dots.min.css';
+
+// // 1. core variables and mixins
+// @import '~bootstrap/scss/functions';
+// @import '~bootstrap/scss/variables';
+// @import '~bootstrap/scss/mixins';
+
+// // 2. custom core variables
+
+// // colors
+// $theme-colors : (
+//   "primary":    "#46B078",
+//   "secondary":  "#B7E1CB",
+//   "success":    "#26de81",
+//   "info":       "#2bcbba",
+//   "warning":    "#fed330",
+//   "danger":     "#fc5c65",
+// );
+
+@import '~ngx-toastr/toastr-bs4-alert';
