@@ -27,11 +27,9 @@ namespace AspNet5.Api
         {
             WebHostEnvironemnt = env;
             Configuration = configuration;
-            //AppSettings = configuration.Get<AppSettings>();
         }
         private IWebHostEnvironment WebHostEnvironemnt { get; }
         private IConfiguration Configuration { get; }
-        //public AppSettings AppSettings { get; }
 
         /// <summary>
         /// This method gets called by the runtime. Use this method to add services to the container
@@ -61,10 +59,6 @@ namespace AspNet5.Api
         public void Configure(IApplicationBuilder app)
         {
             app.UseCors("CorsPolicy");
-            //if (WebHostEnvironemnt.IsDevelopment())
-            //    app.UseDeveloperExceptionPage();
-            //else
-            //    app.UseExceptionHandler();
             app.UseCustomExceptionMiddleware();
             app.UseRouting();
             app.UseAuthentication();
