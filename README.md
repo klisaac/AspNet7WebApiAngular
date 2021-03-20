@@ -43,9 +43,10 @@ Follow these steps to get your development environment set up:
      ```
      dotnet run --project "AspNet5.Api" --environment "Development"
      ```
-  6. Once the back end has started, within the `\AngularUI\ClientApp` directory, launch the front end by running:
+  6. Once the back end has started, within the `\AngularClientApp` directory, perform the following commands to install the packages and launch the front end:
       ```
-     npm start
+     a) npm install
+     b) npm start
      ```
     
   7. Launch [http://localhost:7000/swagger/index.html?swagger/v1/swagger.json](https://localhost:7001/swagger/index.html?swagger/v1/swagger.json) in your browser to view the REST API documentation (Swagger UI)
