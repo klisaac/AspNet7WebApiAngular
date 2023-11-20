@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pagination\Base\**" />
+    <EmbeddedResource Remove="Pagination\Base\**" />
+    <None Remove="Pagination\Base\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pagination\IPagination.cs" />
+  </ItemGroup>
+
+</Project>

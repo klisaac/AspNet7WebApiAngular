@@ -1,5 +1,5 @@
-# AspNet5WebApiAngular
-A sample application built using **ASP.NET Core 5 ** and **Angular 9 **. Boilerplate for **ASP.NET Core reference application** with **Entity Framework Core**, implementing **Clean Architecture** (Core, Application, Infrastructure and Presentation Layers) and **Domain Driven Design** (Entities, Repositories, Domain/Application Services, DTO's...) by applying **SOLID principles**.
+# AspNet7WebApiAngular
+A sample application built using **ASP.NET Core 7 ** and **Angular 9 **. Boilerplate for **ASP.NET Core reference application** with **Entity Framework Core**, implementing **Clean Architecture** (Core, Application, Infrastructure and Presentation Layers) and **Domain Driven Design** (Entities, Repositories, Domain/Application Services, DTO's...) by applying **SOLID principles**.
 
 Also implements **best practices** like **loosely-coupled, dependency-inverted** architecture and using **design patterns** such as **Dependency Injection**, logging, validation, exception handling and so on.
 
@@ -18,8 +18,8 @@ Use these instructions to get the project up and running.
 ### Prerequisites
 You will need the following tools:
 
-* [Visual Studio Code or Visual Studio 2019](https://visualstudio.microsoft.com/vs/) (version 16.3 or later)
-* [.NET Core SDK 3](https://dotnet.microsoft.com/download/dotnet-core/3.0)
+* [Visual Studio Code or Visual Studio 2022](https://visualstudio.microsoft.com/vs/) (version 17.5.5 or  later)
+* [.NET 7.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)
  * [Node.js](https://nodejs.org/en/) (version 10 or later) with npm (version 6.11.3 or later)
 
 ### Setup
@@ -54,10 +54,10 @@ Follow these steps to get your development environment set up:
   8. Launch [https://localhost:3000/](http://localhost:3000/) in your browser to view the Angular UI. Login to the application using the user id: isaac and password: Welcome@123 or click sign up to create new user.
 
 ## Technologies
-* .NET Core 5
-* ASP.NET Core 3.1
-* Entity Framework Core 3.1.7
+* .NET Core 7
+* ASP.NET Core 7
+* Entity Framework Core 7.0.13
 * Angular 9
 
 ## Versions
-The [master](hhttps://github.com/klisaac/AspNet5WebApiAngular/tree/master) branch is running .NET Core 5. 
+The [master](hhttps://github.com/klisaac/AspNet7WebApiAngular/tree/master) branch is running .NET Core 7. 
